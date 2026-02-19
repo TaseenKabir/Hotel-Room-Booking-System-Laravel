@@ -1,0 +1,136 @@
+/* Change text color for "Show entries" */
+#room_type_table_length label {
+    color: white;
+}
+
+/* Change the select dropdown text color */
+#room_type_table_length select {
+    color: white;        /* text inside the dropdown */
+    background-color: #333; /* dropdown background */
+    border: 1px solid #555;
+}
+
+/* Change the search label text */
+#room_type_table_filter label {
+    color: white;
+}
+
+/* Change info text (showing x of y entries) */
+#room_type_table_info {
+    color: white;
+}
+
+/* Change pagination buttons */
+#room_type_table_paginate .paginate_button {
+    color: white !important;
+    background: #222;
+    border: none;
+}
+#room_type_table_paginate .paginate_button.current {
+    background: #555 !important;
+    color: white !important;
+}
+
+/* Change text color for "Show entries" */
+#room_table_length label {
+    color: white;
+}
+
+/* Change the select dropdown text color */
+#room_table_length select {
+    color: white;        /* text inside the dropdown */
+    background-color: #333; /* dropdown background */
+    border: 1px solid #555;
+}
+
+/* Change the search label text */
+#room_table_filter label {
+    color: white;
+}
+
+/* Change info text (showing x of y entries) */
+#room_table_info {
+    color: white;
+}
+
+/* Change pagination buttons */
+#room_table_paginate .paginate_button {
+    color: white !important;
+    background: #222;
+    border: none;
+}
+#room_table_paginate .paginate_button.current {
+    background: #555 !important;
+    color: white !important;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.table-actions {
+    display: flex;
+    align-items: center;
+    gap: 2px; 
+}
+
+.table-actions a,
+.table-actions button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    padding: 4px;
+}
+
+.table-actions i {
+    font-size: 16px;
+}
+.table-border-bottom-0 tr:last-child td {
+    border-bottom: none !important;
+}
+
+.pagination li a {
+    color: #556ee5;           /* Link color */
+}
+
+.pagination li.active span {
+    background-color: #556ee5; /* Active page background */
+    border-color: #556ee5;
+}
+
+.pagination li a:hover {
+    background-color: #333131;
+}
+
+.search-container {
+    position: relative;
+    width: 300px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+}
+
+.search-input:focus {
+    border-color: #0d6efd;
+}
+
+.search-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #555;
+}
